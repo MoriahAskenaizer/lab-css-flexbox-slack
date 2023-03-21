@@ -10,87 +10,33 @@ footer links grey: #454245
 */
 
 @media screen (max-width < 768px){
-
-html{
-  font-size:16px;
-}
-
-body{
-  display:flex;
-  flex-direction:column;
-}
-
-nav{
-  display:flex;
-  flex-direction:column;
-  justify-content: space-around;
-}
-.buttons{
-  background-color:#540b51;
-  display:flex;
-  justify-content: end;
-}
-
-img[src*="logo"]{
-  width: 125px;
-  height:30px;
-}
-
-h1,p{
-  color:white;
-  display:flex;
-  font-family:Slack-Larsseit,"Helvetica Neue",Helvetica,"Segoe UI",Tahoma,Arial,sans-serif;
-  justify-content:center;
-  }
-
   
-.free{
-  margin-right:3px;
-  color:orange;
-}
-
-.sign-up-with{
-display:flex;
-flex-direction:column;
-justify-content:space-between;
-}
-
-.email{
-  background-color: #4285F4;
-  font-size:15px;
-  color:white;
-  border-radius: 40px;
-  width: 10rem;
-  height: 5rem;
-  border:none;
-}
-}
-
-
-
-
-body{
+  nav{
+  width:500px;
   display:flex;
   flex-direction:column;
-  background-color: #540b51
-}
-
-nav{
-  display:flex;
-  flex-direction:row;
   justify-content: space-around;
   background-color: #540b51;
 }
 
-.buttons{
+header{
+  background-color: #540B51;
+}
+
+body{
   display:flex;
-  justify-content: end;
-  justify-content: space-around;
+  flex-direction:column;
+  background-color:#F3EAE2
 }
 
 button{
+  display:flex;
   background-color: #540B51;
   border:none;
+}
+
+.search-menu{
+    display:flex;
 }
 
 img[src*="logo"]{
@@ -108,16 +54,16 @@ justify-content:center;
 .free{
   margin-right:3px;
   color:orange;
+  font-weight:bold;
 }
 
 .sign-up-with{
 display:flex;
-flex-direction:column;
-justify-content: space-around;
-justify-content: center;
+justify-content:space-around;
 }
 
 .email{
+  justify-content: center;
   background-color: #F3EAE2;
   font-size:15px;
   font-weight: bold;
@@ -129,6 +75,8 @@ justify-content: center;
 }
 
 .google{
+  flex-direction:row;
+  justify-content: center;
   font-size: 15px;
   font-weight:bold;
   color: white;
@@ -149,11 +97,141 @@ img[src*="google"]{
   height: 50px;
   display: flex;
   justify-content: start;
+}
+
+
+.sponsors{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  width:400px;
+  height:500px;
+}
+.trusted{
+  font-size: 30px;
+  color:black;
+}
+
+.sponsor-brands{
+ justify-content: center;
+ justify-content: space-evenly;
+ width:fit-content;
+}
 
 }
 
 
-#sponsors{
-  width:400px;
+
+nav{
+  display:flex;
+  flex-direction:column;
+  justify-content: space-around;
+  background-color: #540b51;
+}
+
+header{
+  background-color: #540B51;
+}
+
+body{
+  display:flex;
+  flex-direction:column;
+  background-color:#F3EAE2
+}
+
+.buttons{
+  display:flex;
+  justify-content: end;
+  justify-content: space-around;
+}
+
+button{
+  display:flex;
+  background-color: #540B51;
+  border:none;
+}
+
+.search-menu{
+  display:flex;
+  justify-content: space-around;
+}
+
+img[src*="logo"]{
+  width: 125px;
+  height:30px;
+}
+
+h1,p{
+margin-left:50px;
+color:white;
+display:flex;
+font-family:Slack-Larsseit,"Helvetica Neue",Helvetica,"Segoe UI",Tahoma,Arial,sans-serif;
+justify-content:center;
+}
+
+.free{
+  margin-right:3px;
+  color:orange;
+}
+
+.sign-up-with{
+display:flex;
+justify-content:space-aroun
+}
+
+.email{
+
+  justify-content: center;
   background-color: #F3EAE2;
+  font-size:15px;
+  font-weight: bold;
+  color: #540B51;
+  border-radius: 7px;
+  width: 50rem;
+  height: 5rem;
+  border:none;
+}
+
+.google{
+  flex-direction:row;
+  justify-content: center;
+  font-size: 15px;
+  font-weight:bold;
+  color: white;
+  text-align: center;
+  background-color:#4285F4;
+  border-radius: 7px;
+  width: 50rem;
+  height: 5rem;
+  border:none;
+}
+
+img[src*="google"]{
+  background-color: white;
+  background-position: cover;
+  margin-top:15px;
+  margin-left:10px;
+  width:50px;
+  height: 50px;
+  display: flex;
+  justify-content: start;
+}
+
+
+.sponsors{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  width:400px;
+  height:500px;
+}
+.trusted{
+  font-size: 30px;
+  color:black;
+}
+
+.sponsor-brands{
+ justify-content: center;
+ justify-content: space-evenly;
+ width:fit-content;
 }
